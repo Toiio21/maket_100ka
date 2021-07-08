@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,bold,italic&subset=latin,latin-ext');
+
+.enter {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 0 49px 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.welcome {
+  width: 598px;
+  height: 100vh;
+  position: relative;
+  background-image: url("https://static.overlay-tech.com/assets/e0d5bab2-fb41-49cf-ae5c-4f5e72802ebc.png");
+  background-size: cover;
+}
+
+.welcome-pic {
+  width: 10.15%;
+  height: 4%;
+  position: absolute;
+  left: 39.58px;
+  top: 25px;
+}
+
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  left: 107px;
+  top: 380px;
+}
+.welcome-text-title {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 16px;
+}
+.welcome-text-desc {
+  max-width: 363px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 284px;
+  margin-left: 154px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
+  color: rgba(20, 32, 47, 1);
+  margin-bottom: 12px;
+}
+.form-input {
+  font-family: "Inter";
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 14px;
+}
+.input {
+  background-color: rgba(240, 244, 249, 1);
+  margin-bottom: 26px;
+  border-radius: 8px;
+  padding: 11px 160px 12px 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+
+.classes {
+  margin-bottom: 38px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.class-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgba(88, 96, 108, 1);
+  margin-right: 30px;
+}
+.class-select {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  padding: 10px 73px 11px 14px;
+  position: relative;
+  border: 1px solid rgba(229, 235, 239, 1);
+}
+.class-select:focus {
+  outline: none;
+}
+
+.button {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(20, 85, 255, 1);
+  border-radius: 8px;
+  padding: 13.5px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}

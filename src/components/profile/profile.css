@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:regular,bold,italic&subset=latin,latin-ext');
+
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: space-around;
+}
+
+.header-back {
+  margin-right: 172px;
+  display: flex;
+  align-items: center;
+}
+
+.header-back-text {
+  height: 95%;
+  font-family: "Inter";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  color: rgba(88, 96, 108, 1);
+}
+
+.header-back-icon {
+  width: 20px;
+  margin-right: 8px;
+  object-fit: cover;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-search-icon {
+  width: 20px;
+  margin-right: 6px;
+  object-fit: cover;
+}
+
+.header-search-input {
+  background-color: rgba(240, 244, 249, 1);
+  margin-right: 460px;
+  border-radius: 8px;
+  padding: 8px 141px 8px 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.header-btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-add {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(20, 85, 255, 1);
+  margin-right: 14px;
+  border-radius: 8px;
+  padding: 9px 16px;
+}
+
+.header-add-button {
+  font-family: "Inter";
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(20, 85, 255, 1);
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.header-add-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.header-coin {
+  background-color: rgba(240, 244, 249, 1);
+  margin-right: 14px;
+  border-radius: 8px;
+  padding: 9px 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-coin-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.header-coin-text {
+  font-family: "Inter";
+  border-radius: 16px;
+}
+
+.header-notes {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-note {
+  margin-right: 14px;
+  padding: 0 0 12px 12px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.header-note-icon {
+  padding-top: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.header-profile {
+  margin-right: 15px;
+}
+
+.header-profile-icon {
+  padding-left: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+.profile {
+  padding-left: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+
+.profile-list-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.profile-list-name {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(20, 32, 47, 1);
+  margin-bottom: 10px;
+}
+
+.profile-list-types {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile-list-types-type {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgba(88, 96, 108, 1);
+  margin-right: 12px;
+}
+
+.profile-names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-names-naming {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 1px;
+}
+
+.profile-names-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.profile-contacts {
+  display: flex;
+  align-items: flex-start;
+}
+
+.profile-contacts-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 96px;
+}
+
+.profile-contacts-phone-naming {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 12px;
+}
+
+.profile-contacts-phone-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.profile-contacts-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 96px;
+}
+.profile-contacts-mail-naming {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 12px;
+}
+
+.profile-contacts-mail-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.profile-birth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-birth-naming{
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 12px;
+}
+
+.profile-birth-real{
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+
+
+.goals {
+  padding-left: 400px;
+}
+.goals-name {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(20, 32, 47, 1);;
+}
+
+.goals-items {
+  display: flex;
+  flex-direction: row;
+}
+
+.goals-item {
+  margin-right: 12px;
+  border-radius: 12px;
+  padding: 1px 147px 1px 1px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(229, 235, 239, 1);
+}
+
+.goals-item-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.goals-item-col-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.goals-item-icon {
+  margin-right: 15px;
+  padding: 2px;
+  position: relative;
+}
+
+.goals-item-name {
+  color: rgba(20, 32, 47, 1);
+  margin-bottom: 3px;
+}
+
+.goals-item-goal {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-right: 6px;
+}
+
+.goals-item-number {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+
+
+.contact {
+  padding-left: 400px;
+}
+.contact-name {
+  font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.contact-contacts {
+  margin-bottom: 36px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.contact-contacts-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 96px;
+}
+
+.contact-contacts-name-naming {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 12px;
+}
+
+.contact-contacts-name-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.contact-contacts-phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 96px;
+}
+
+.contact-contacts-phone-naming {
+  font-family: "Inter";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: rgba(88, 96, 108, 1);
+  margin-bottom: 12px;
+}
+
+.contact-contacts-phone-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
+
+
+
+.college {
+  padding-left: 400px;
+  margin-bottom: 50px;
+}
+
+.college-naming {
+font-family: "Inter";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  color: rgba(20, 32, 47, 1);
+}
+
+.college-real {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(20, 32, 47, 1);
+}
